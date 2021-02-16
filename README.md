@@ -1,17 +1,33 @@
-# imt_podcast_app
+# Podcast App
 
-A new Flutter application.
+## Preview
 
-## Getting Started
+<img src="https://i.imgur.com/pvabWXq.png"/>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Introduction
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I have built a basic podcast app with an interactive UI, as well as some of its functionalities : 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# podcast-app
+* Like System
+* Multi-word search system.
+
+The app currently has 5 screens :
+
+* Home: With a hard-coded list of podcasts and an integrated search field. The screen adapts automatically depending on whether the TextField is empty or not.
+* Favorite: Displays liked podcasts and a button for each podcast to unlike it.
+* Podcast: Displays information and the episodes list of a particular podcast.
+* Episode: Displays information about the episode, a dynamic slider that changes the duration synchronously, and non-working other UI Buttons (Inspired from an existing UI).
+* About: Displays basic information about the app.
+
+
+## Running the app
+
+Clone this repo, run it and you're good to go.
+
+```
+git clone http://www.github.com/bilalelmahdaoui/podcast-app.git
+cd amse/tp1
+flutter create .
+flutter run
+```
